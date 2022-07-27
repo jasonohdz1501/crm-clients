@@ -49,7 +49,7 @@ const Layout = () => {
           </div>
         </div>
         <div className='w-full lg:w-4/5 pt-4 lg:pr-4 md:h-screen overflow-scroll'>
-          <div className='p-10 bg-white rounded-2xl'>
+          <div className='p-10 bg-white rounded-2xl m-5 sm:m-10 mt-12 sm:mt-20'>
             <Outlet />
           </div>
         </div>
@@ -58,14 +58,18 @@ const Layout = () => {
       <div
         className={`${
           toggleMobileMenu
-            ? "opacity-100 transition-opacity"
-            : "opacity-0 hidden"
-        } fixed top-0 left-0 h-full w-full backdrop-contrast-75  bg-stone-900/50 z-50 transition-all`}
+            ? "opacity-100 transition duration-500 ease-out"
+            : "opacity-0 transition duration-500 ease-in"
+        } fixed top-0 left-0 h-full w-full backdrop-contrast-75 bg-stone-900/50 z-50`}
         onClick={handleToggleMobileMenu}
       >
         <div
           onClick={(e) => e.stopPropagation()}
-          className='h-screen w-[250px] bg-sky-900 absolute top-0'
+          className={`${
+            toggleMobileMenu
+              ? "translate-x-0 transition duration-500 ease-out"
+              : "-translate-x-96 transition duration-500 ease-in"
+          } h-screen w-[250px] bg-sky-900 absolute top-0`}
         >
           <SidebarNav>
             <div className='py-3 px-5'>
