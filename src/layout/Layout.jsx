@@ -58,9 +58,9 @@ const Layout = () => {
       <div
         className={`${
           toggleMobileMenu
-            ? "opacity-100 transition duration-500 ease-out"
-            : "opacity-0 transition duration-500 ease-in"
-        } fixed top-0 left-0 h-full w-full backdrop-contrast-75 bg-stone-900/50 z-50`}
+            ? "opacity-100 transition-opacity"
+            : "opacity-0 invisible delay-200 transition-all duration-1000 ease-out "
+        } fixed lg:hidden top-0 left-0 h-full w-full backdrop-contrast-75 bg-stone-900/50 z-50`}
         onClick={handleToggleMobileMenu}
       >
         <div
