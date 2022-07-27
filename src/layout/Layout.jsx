@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
-import AddIcon from "../components/icons/addIcon";
+import AddIcon from "../components/icons/AddIcon";
 import HomeIcon from "../components/icons/HomeIcon";
 import NavigationLink from "../components/NavigationLink";
 import SidebarNav from "../components/SidebarNav";
