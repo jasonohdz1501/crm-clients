@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import DeleteIcon from "./icons/DeleteIcon";
 import EditIcon from "./icons/EditIcon";
-import ViewIcon from "./icons/viewIcon";
+import ViewIcon from "./icons/ViewIcon";
 
 const CardViewClients = ({ client, handleDelete }) => {
   const { name, company, email, telephone, id } = client;
