@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink, Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import AddIcon from "../components/icons/addIcon";
 import HomeIcon from "../components/icons/HomeIcon";
 import NavigationLink from "../components/NavigationLink";
