@@ -49,7 +49,7 @@ const Layout = () => {
           </div>
         </div>
         <div className='w-full lg:w-4/5 pt-4 lg:pr-4 md:h-screen overflow-scroll'>
-          <div className='p-10 bg-white rounded-2xl m-5 sm:m-10 mt-12 sm:mt-20'>
+          <div className='p-10 bg-white rounded-2xl m-5 lg:ml-0 mt-12 sm:mt-20'>
             <Outlet />
           </div>
         </div>
