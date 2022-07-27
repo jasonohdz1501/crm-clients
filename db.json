@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "name": "JASON",
+      "company": "Codigo",
+      "email": "jeisson.olarte@globant.com",
+      "telephone": "35048593",
+      "notes": "afdafsfads",
+      "id": 1
+    },
+    {
+      "name": "hey ACTUALIZADO",
+      "company": "hey",
+      "email": "jeisson.olarte@globant.com",
+      "telephone": "35048593",
+      "notes": "dafafdad",
+      "id": 2
+    },
+    {
+      "name": "JASON UPDATED",
+      "company": "OLARTE",
+      "email": "correo@corre.com",
+      "telephone": "35048593",
+      "notes": "dañkjasdfaf",
+      "id": 3
+    }
+  ]
+}
